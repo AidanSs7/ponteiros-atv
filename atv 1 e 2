@@ -1,0 +1,31 @@
+include <stdio.h>
+
+
+ int main(){
+
+int n1_33;
+
+int n2_33;
+
+
+ if (&n1 33 > &n2_33)
+
+ printf("Endereco da primeira variavel: %d\n", &n1_33);
+
+ else
+ 
+printf("Endereco da segunda variavel: %d\n", &n2_33) ;
+ return 0;
+ }
+ 
+ 
+ #include <stdio.h>
+ 
+void main()
+{
+int vetN_3213[7];
+int i;
+
+for (i=0; i<7; i++)
+printf("Endereco da posicao %d: %d\n", i+1, &vetN_3213[i])
+}
